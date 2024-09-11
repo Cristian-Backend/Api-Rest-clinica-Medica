@@ -9,7 +9,7 @@ const { esAdminRole, tieneRole } = require('../middlewares/validar-roles')
 const { validarJWT } = require('../middlewares/validar-jwt')
 
 const router = express.Router()
-router.get('/', (req,res)=> {
+router.get('/inicio', (req,res)=> {
 res.send('Inicio ')
 })
 
